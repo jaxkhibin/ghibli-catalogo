@@ -7,7 +7,7 @@ function Favoritos({ favoritos, toggleFavorito }) {
   return (
     <div>
       <div className="favoritos-header">
-        <h1>Mis Favoritos</h1>
+        <h1>Mis Películas Favoritas</h1>
         <p style={{ color: 'var(--color-texto-claro)', fontSize: '0.9rem' }}>
           {favoritos.length} película{favoritos.length !== 1 ? 's' : ''} guardada{favoritos.length !== 1 ? 's' : ''}
         </p>
@@ -26,7 +26,8 @@ function Favoritos({ favoritos, toggleFavorito }) {
           {favoritos.map(pelicula => (
             <Tarjeta
               key={pelicula.id}
-              pelicula={pelicula}
+              item={pelicula}
+              tipo="films"
               toggleFavorito={toggleFavorito}
               esFavorito={esFavorito}
             />
