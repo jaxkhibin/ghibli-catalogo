@@ -86,9 +86,15 @@ Aplicación web desarrollada con **React 19** y **Vite** para explorar el univer
 
 ---
 
-## 🛠️ Tecnologías y Librerías
-- **React 19**
-- **Vite 8**
-- **React Router DOM v7**
-- **CSS responsivo** (optimizado para móvil 375px, tablet 768px y desktop 1280px)
-- **Vercel Rewrite (`vercel.json`)** y **Netlify Redirects (`_redirects`)** para evitar error 404 al recargar en rutas dinámicas.
+##  Capturas de Pantalla
+- pantalla inicio
+<img width="1909" height="936" alt="image" src="https://github.com/user-attachments/assets/ecfff4b7-b50e-490f-950b-baf7f7d29a6c" />
+- lista
+<img width="1896" height="933" alt="image" src="https://github.com/user-attachments/assets/4a1df77f-310d-4e2e-9e32-16ddc1d1ff78" />
+- Favorito
+  <img width="1912" height="939" alt="image" src="https://github.com/user-attachments/assets/864f9240-0866-49de-b17b-88a6d364769a" />
+- Registro
+  <img width="1900" height="946" alt="image" src="https://github.com/user-attachments/assets/839aedad-9938-4b7d-ae76-1241dd4f722e" />
+
+
+
